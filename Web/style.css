@@ -1,0 +1,156 @@
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 198, 255, 1) 77%);
+}
+
+a {
+    color: white;
+}
+
+nav p {
+    display: inline;
+    margin-right: 80px;
+}
+
+.info {
+    color: rgb(154, 206, 43);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.sub-container {
+    justify-items: right;
+}
+
+nav {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.my-detail {
+    width: 40%;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+.name {
+    margin-right: 700px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.detail-img {
+    display: flex;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.my-image {
+    border-radius: 120px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    color: white;
+}
+
+.details {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.contact-info-p {
+    font-size: 38px;
+    font-family: sans-serif;
+}
+
+.contact-info-p1 {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.certificates-info-p {
+    font-size: 38px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.certificates-info {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.coding-skills-p {
+    font-size: 38px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.coding-lan1,
+.coding-lan2,
+.coding-lan3,
+.coding-lan4,
+.coding-lan5,
+.coding-lan6 {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.coding-lan-div {
+    display: flex;
+}
+
+.coding-lan2 {
+    margin-left: 92px;
+}
+
+.coding-lan4 {
+    margin-left: 60px;
+}
+
+.coding-lan6 {
+    margin-left: 104px;
+}
+
+.project-name {
+    font-size: 38px;
+    font-family: sans-serif;
+    color: white;
+    justify-self: center;
+}
+
+.bvoc-details,
+.form-fill {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 20px;
+}
+
+.buttons {
+    justify-self: center;
+}
+
+button {
+    width: 200px;
+    height: 33px;
+    border-radius: 10px;
+}
