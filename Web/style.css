@@ -13,7 +13,7 @@ nav p {
 }
 
 .info {
-    color: rgb(154, 206, 43);
+    color: rgb(214, 106, 18);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
@@ -51,7 +51,7 @@ nav {
 }
 
 .my-image {
-    border-radius: 120px;
+    border-radius: 20px;
     margin-top: 40px;
     margin-left: 150px;
     margin-bottom: 40px;

@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Employee Management System</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="left-corner">
+            <form action="login.php" method="POST">
+                <div class="header">
+                    <h1>Log in</h1>
+                    <div class="ft-tags">
+                        <a href="#" title="Facebook" aria-label="Log in with Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" title="Twitter" aria-label="Log in with Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="email-field">
+                    <label for="email">Email</label><br />
+                    <input type="email" placeholder="Email" class="input-field" required />
+                </div>
+                <div class="password-field">
+                    <label for="password">Password</label><br />
+                    <input type="password" placeholder="Password" class="input-field" required />
+                </div>
+
+                <div class="rem-me">
+                    <input type="checkbox" />
+                    <label for="remember-me">Remember Me</label>
+                </div>
+
+                <div class="login-field">
+                    <input type="submit" value="Log in" id="submit-button" />
+                </div>
+            </form>
+        </div>
+
+        <div class="right-corner">
+            <h2 class="welcome-text">Welcome To Login</h2>
+            <p class="signup-prompt">Don't have an account ? Create One</p>
+            <button id="sign-in-button" onclick="window.location.href='data.html';">Sign Up</button>
+        </div>
+        <div class="middle-corner">
+            <form action="">
+                <h2 class="admin-font">Administrator Login</h2>
+                <div class="email-field">
+                    <label>Email</label><br />
+                    <input type="email" placeholder="Email" class="input-field" required />
+                </div>
+                <div class="password-field">
+                    <label for="password">Password</label><br />
+                    <input type="password" placeholder="Password" class="input-field" required />
+                </div>
+                <div class="rem-me">
+                    <input type="checkbox" />
+                    <label>Remember Me</label>
+                </div>
+                <div class="login-field">
+                    <input type="submit" value="Log in" id="submit-button-2" />
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
